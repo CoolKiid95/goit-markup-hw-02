@@ -66,8 +66,102 @@ ul {
   font-weight: 900;
 }
 .hero-button {
+  background-color: var(--action-color);
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 30px;
+  cursor: pointer;
+}
+.feature-title {
+  font-weight: 700px;
+  font-size: 14px;
+  line-height: 30px;
+  text-transform: uppercase;
+  letter-spacing: 0.02em;
+}
+.feature-text {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--secondary-color);
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+.wwd-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+.team {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+}
+.team-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 
 /*portafolio*/
 
+.portafolio-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 0.02em;
+  background-color: #f5f4fa;
+  border: none;
+  cursor: pointer;
+}
+.portafolio-button:hover {
+  background-color: var(--action-color);
+  color: var(--background-color2);
+}
+.portafolio-titles {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 60px;
+  letter-spacing: 0.04em;
+}
+.portafolio-text {
+  font-weight: 400;
+  font-size: 186x;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
 /*footer*/
+
+.footer-address {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--background-color2);
+  font-style: normal;
+}
+.footer-email {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+.footer-tel {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
